@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(90deg, #c9d6ff 0%, #e2e2e2 100%);
+  color: #ffffff;
+}
+
+.container {
+  padding: 0 360px;
+}
+
+#display {
+  text-align: right;
+  padding: 15px;
+  background-color: #000;
+}
+
+.lower-button {
+  background-color: #20c997;
+}

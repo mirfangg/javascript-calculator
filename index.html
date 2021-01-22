@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Javascript Calculator</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col">
+                <div id="display" class="my-3 py-4">0</div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-4">
+                <a id="seven" class="btn btn-block btn-primary" onclick="updateValue(7)">7</a>
+                <a id="four" class="btn btn-block btn-primary" onclick="updateValue(4)">4</a>
+                <a id="one" class="btn btn-block btn-primary" onclick="updateValue(1)">1</a>
+                <a id="zero" class="btn btn-block btn-primary" onclick="updateValue(0)">0</a>
+            </div>
+            <div class="col-4">
+                <a id="eight" class="btn btn-block btn-primary" onclick="updateValue(8)">8</a>
+                <a id="five" class="btn btn-block btn-primary" onclick="updateValue(5)">5</a>
+                <a id="two" class="btn btn-block btn-primary" onclick="updateValue(2)">2</a>
+                <a id="clear" class="btn btn-block btn-danger" onclick="clearValue()">AC</a>
+            </div>
+            <div class="col-4">
+                <a id="nine" class="btn btn-block btn-primary" onclick="updateValue(9)">9</a>
+                <a id="six" class="btn btn-block btn-primary" onclick="updateValue(6)">6</a>
+                <a id="three" class="btn btn-block btn-primary" onclick="updateValue(3)">3</a>
+                <a id="equals" class="btn btn-block btn-primary" onclick="updateValue('equals')">=</a>
+            </div>
+        </div>
+        <div class="row text-center pt-3">
+            <div class="col">
+                <a id="add" class="btn btn-block lower-button" onclick="updateValue('add')">+</a>
+            </div>
+            <div class="col">
+                <a id="subtract" class="btn btn-block lower-button" onclick="updateValue('subtract')">-</a>
+            </div>
+            <div class="col">
+                <a id="multiply" class="btn btn-block lower-button" onclick="updateValue('multiply')">*</a>
+            </div>
+            <div class="col">
+                <a id="divide" class="btn btn-block lower-button" onclick="updateValue('divide')">/</a>
+            </div>
+            <div class="col">
+                <a id="decimal" class="btn btn-block lower-button" onclick="updateValue('decimal')">.</a>
+            </div>
+            <div class="col">
+                <a id="negative-value" class="btn btn-block lower-button"
+                    onclick="updateValue('negative-value')">+/-</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
